@@ -1,25 +1,13 @@
-# @pancakeswap/sdk
+# @pancakeswap/aptos-swap-sdk
 
-## 3.1.4
-
-### Patch Changes
-
-- 1ce404aaf: Remove redundant import
-
-## 3.1.3
+## 0.0.2
 
 ### Patch Changes
 
-- d83530d6b: Remove duplicate isTradeBetter util
+- dae8701b5: Fix APT coin compare
 
-## 3.1.2
-
-### Patch Changes
-
-- da105c1eb: Remove duplicate util functions
-
-## 3.1.1
+## 0.0.1
 
 ### Patch Changes
 
-- 8ddd5956f: Export missing token classes
+- bcba002d7: Aptos swap sdk release
