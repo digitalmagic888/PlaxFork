@@ -30,26 +30,6 @@ type TestnetChain = {
   faucetUrl: string
 }
 
-export const newNet: Chain = {
-  id: 369,
-  name: 'PulseChain',
-  network: 'pulsechain',
-  nodeUrls: {
-    default: 'https://rpc.pulsechain.com',
-  },
-  blockExplorers: {
-    default: {
-      name: 'PulseChain Explorer',
-      url: 'https://otter.PulseChain.com',
-      params: {
-        network: 'pulsechain',
-      },
-    },
-    // You can add more block explorers if needed
-  },
-};
-
-
 export const mainnet: Chain = {
   id: 1,
   name: 'Mainnet',
@@ -122,6 +102,6 @@ export const testnet: Chain = {
   faucetUrl: 'https://faucet.testnet.aptoslabs.com',
 }
 
-export const defaultChains = [mainnet, devnet, testnet, newNet];
+export const defaultChains = [mainnet, devnet, testnet]
 
-export const defaultChain = newNet;
+export const defaultChain = mainnet
